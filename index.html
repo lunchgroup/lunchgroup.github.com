@@ -1,31 +1,161 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>lunchgroup.org</title>
+        <meta charset="utf-8">
+        <title>Lunchgroup Heavy Industries → 2012 Enbridge Ride to Conquer Cancer</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
 
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" media="all">
+        <link rel="stylesheet" type="text/css" href="css/fonts.css" media="all">
         <style>
 
-        @font-face {
-            font-family: 'BebasRegular';
-            src: url('fonts/BEBAS___-webfont.eot');
-            src: url('fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
-                 url('fonts/BEBAS___-webfont.woff') format('woff'),
-                 url('fonts/BEBAS___-webfont.ttf') format('truetype'),
-                 url('fonts/BEBAS___-webfont.svg#BebasRegular') format('svg');
-            font-weight: normal;
-            font-style: normal;
+        .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+/*            background-color: pink;*/
+        }
 
+        body {
+            background: url(img/noise.png);
         }
-        h1 {
-            font-family: 'BebasRegular', sans-serif;
-            font-size: 4em;
-            word-spacing: 0.15em;
+
+        .centertext {
+            text-align: center;
         }
+
+        .header {
+            background: -webkit-linear-gradient(top, rgba(80, 80, 80, .35) 0%,rgba(125, 186, 232, 0) 100%);
+            background:    -moz-linear-gradient(top, rgba(80, 80, 80, .35) 0%,rgba(125, 186, 232, 0) 100%);
+            background:     -ms-linear-gradient(top, rgba(80, 80, 80, .35) 0%,rgba(125, 186, 232, 0) 100%);
+            background:      -o-linear-gradient(top, rgba(80, 80, 80, .35) 0%,rgba(125, 186, 232, 0) 100%);
+            background:         linear-gradient(top, rgba(80, 80, 80, .35) 0%,rgba(125, 186, 232, 0) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#505050', endColorstr='#FFFFFF',GradientType=0 );
+        }
+
+        .logo {
+            background: url(img/lhi-logo-300x370.png) no-repeat center top;
+            height: 370px;
+        }
+        .logo h1 {
+            font-size: 0px;
+            color: transparent;
+            margin-left: -10000px;
+        }
+
+        .hero h1 {
+            font: 4.5em LouisBold, "Helvetica Neue", Helvetica, sans-serif;
+            text-transform: uppercase;
+            font-weight: lighter;
+            margin: 20px 0 0 0;
+        }
+        .hero h2 {
+            font-family: RockwellRegular, "Helvetica Neue", Helvetica, sans-serif;
+            font-weight: lighter;
+        }
+
+        .navbuttons {
+            margin-top: 20px;
+        }
+
+
+        .navbuttons .btn.btn-large {
+			width: 40%;
+            font-size: 20px;
+            font-weight: normal;
+        }
+
+
+        hr.soften {
+          height: 1px;
+          margin: 54px 0;
+          background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+          background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+          background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+          background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+          background-image:         linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+          border: 0;
+        }
+        .hero hr.soften {
+            margin: 20px 0;
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 24px;
+            }
+            .hero h2 {
+                font-size: 20px;
+            }
+
+			.navbuttons p {
+				margin: 0;
+			}
+
+			.navbuttons .btn.btn-large {
+				width: 100%;
+				display: block;
+				margin-bottom: 10px;
+				padding: 10px 0px;
+				margin: 0;
+				margin-bottom: 10px;
+			}
+        }
+
+
+
         </style>
     </head>
+
     <body>
-        <center>
-            <img src="img/lhi-logo.png" alt="Lunchgroup Heavy Industries Logo">
-            <h1>Appearing Here Shortly</h1>
-        </center>
+        <div class="container-fluid header">
+            <div class="row-fluid">
+                <div class="span4 logo">
+                    <h1>Lunchgroup Heavy Industries - Ride to Conquer Cancer</h1>
+                </div>
+                <div class="span8 centertext hero">
+                    <h1>Conquering Cancer</h1>
+                    <h2>One Kilometer at a Time</h2>
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <hr class="soften" />
+                        </div>
+                    </div>
+
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <h3>Days to Go:</h3>
+                            <p>123</p>
+                        </div>
+                        <div class="span6">
+                            <h3>Amount Raised:</h3>
+                            <p>$1100</p>
+                        </div>
+                    </div>
+
+                    <div class="row-fluid">
+                        <div class="span12 navbuttons">
+							<p>
+								<a href="#" class="btn btn-large btn-primary">Donate</a>
+								<a href="#" class="btn btn-large">Meet the Team</a>
+							</p>
+							<p>
+								<a href="#" class="btn btn-large">About the Ride</a>
+                               	<a href="#" class="btn btn-large">Read The Blog</a>
+							</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
     </body>
 </html>
