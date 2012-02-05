@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'LouisBold';
+    src: url('louisbold-webfont.eot');
+    src: url('louisbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('louisbold-webfont.woff') format('woff'),
+         url('louisbold-webfont.ttf') format('truetype'),
+         url('louisbold-webfont.svg#LouisBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LouisRegular';
+    src: url('louisregular-webfont.eot');
+    src: url('louisregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('louisregular-webfont.woff') format('woff'),
+         url('louisregular-webfont.ttf') format('truetype'),
+         url('louisregular-webfont.svg#LouisRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
