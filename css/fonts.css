@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('../fonts/bebas/BEBAS___-webfont.eot');
+    src: url('../fonts/bebas/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas/BEBAS___-webfont.woff') format('woff'),
+         url('../fonts/bebas/BEBAS___-webfont.ttf') format('truetype'),
+         url('../fonts/bebas/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LouisBold';
+    src: url('../fonts/louis/louisbold-webfont.eot');
+    src: url('../fonts/louis/louisbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/louis/louisbold-webfont.woff') format('woff'),
+         url('../fonts/louis/louisbold-webfont.ttf') format('truetype'),
+         url('../fonts/louis/louisbold-webfont.svg#LouisBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LouisRegular';
+    src: url('../fonts/louis/louisregular-webfont.eot');
+    src: url('../fonts/louis/louisregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/louis/louisregular-webfont.woff') format('woff'),
+         url('../fonts/louis/louisregular-webfont.ttf') format('truetype'),
+         url('../fonts/louis/louisregular-webfont.svg#LouisRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RockwellRegular';
+    src: url('../fonts/rockwell/rockwell-webfont.eot');
+    src: url('../fonts/rockwell/rockwell-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rockwell/rockwell-webfont.woff') format('woff'),
+         url('../fonts/rockwell/rockwell-webfont.ttf') format('truetype'),
+         url('../fonts/rockwell/rockwell-webfont.svg#RockwellRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RockwellExtraBoldRegular';
+    src: url('../fonts/rockwell/rockwell_extra_bold-webfont.eot');
+    src: url('../fonts/rockwell/rockwell_extra_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rockwell/rockwell_extra_bold-webfont.woff') format('woff'),
+         url('../fonts/rockwell/rockwell_extra_bold-webfont.ttf') format('truetype'),
+         url('../fonts/rockwell/rockwell_extra_bold-webfont.svg#RockwellExtraBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
