@@ -43,7 +43,6 @@ h2 {
 	background:		-ms-linear-gradient(top, rgba(80, 80, 80, .35) 0%,rgba(125, 186, 232, 0) 100%);
 	background:		 -o-linear-gradient(top, rgba(80, 80, 80, .35) 0%,rgba(125, 186, 232, 0) 100%);
 	background:			linear-gradient(top, rgba(80, 80, 80, .35) 0%,rgba(125, 186, 232, 0) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#505050', endColorstr='#FFFFFF',GradientType=0 );
 }
 
 .logo img {
@@ -128,16 +127,15 @@ ul.stats-tabs li span {
 }
 
 .navbuttons .btn-donate {
-    background-color: #bfa640;
     background-color: #ffab23;
     background-image: -webkit-linear-gradient(top, #fe6, #ffab23);
     background-image:     -moz-linear-gradient(top, #fe6, #ffab23);
     background-image:      -ms-linear-gradient(top, #fe6, #ffab23);
     background-image:       -o-linear-gradient(top, #fe6, #ffab23);
     background-image:          linear-gradient(top, #fe6, #ffab23);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee66', endColorstr='#ffab23', GradientType=0);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe6', endColorstr='#ffab23', GradientType=0);
-	border-color: #cbbd55 #c9a239 #ca8a21;
+    border-color: #cbbd55 #c9a239 #ca8a21;
 	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 	font-weight: 600 !important;
 }
@@ -181,6 +179,8 @@ hr.soften {
 
 .rider img {
     opacity: 0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity = 0);
 }
 
 .rider img:hover {
@@ -189,6 +189,8 @@ hr.soften {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity = 100);
 }
 
 
@@ -214,6 +216,8 @@ hr.soften {
 
 .sponsorimg {
     opacity: 0;
+/*    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity = 0);*/
 }
 
 .sponsorimg:hover {
@@ -222,6 +226,8 @@ hr.soften {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     opacity: 1;
+/*    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity = 100);*/
 }
 
 footer {
