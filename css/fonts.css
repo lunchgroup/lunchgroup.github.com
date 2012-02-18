@@ -57,3 +57,25 @@
     font-style: normal;
 
 }
+
+.ico {
+    font-family: 'Pictos Custom';
+    -webkit-font-smoothing: antialiased;
+    vertical-align: middle;
+    font-weight: normal;
+}
+        
+i.ico { font-style: normal }
+               
+.ico.bills:before {
+    content: 'm';
+}
+
+.ico.bird:before {
+    content: 'b';
+}
+
+.btn-large .ico {
+    font-size: 36px;
+    margin-right: 10px;
+}
