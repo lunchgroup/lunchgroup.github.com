@@ -11,6 +11,7 @@ blogs:
     title: Eryn's Training Journal
     url: http://ride2conquer.tumblr.com/
 ---
+
 Hi there. Thanks for stopping by.
 
 My name is Eryn Holbrook. This is my inaugural Ride to Conquer Cancer and I couldn't be more excited (or scared). Did I really sign up for a 320km bike ride from Vancouver to Seattle? Looks like I've got a lot of training ahead of me but, with your support, I'll be well on my way to reaching my goals.
