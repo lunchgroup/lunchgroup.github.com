@@ -8,8 +8,7 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap-popover.js"></script>
+		<script src="/js/jquery.js"></script>
 
 		<!-- HTML5 shim, for IE6-8 support of HTML elements -->
 		<!--[if lt IE 9]>
@@ -74,6 +73,11 @@
                             {% if page.twitter %}
                                 <a href="{{ page.twitter }}" target=_blank class="btn btn-large"><i class="ico bird"></i>Follow on Twitter</a>
                             {% endif %}
+                            {% if page.blogs %}
+                            {% for blog in page.blogs %}
+                                <a href="{{ blog['url'] }}" target=_blank class="btn btn-large"><i class="ico {{ blog['type'] }}"></i>{{ blog.['title'] }}</a>
+                            {% endfor %}
+                            {% endif %}
                         </div>
                     </div>
                                   
@@ -86,11 +90,24 @@
         </footer>
         
         
-        
-        
-        
-        
-        
+
+        <script>
+            
+        var url = encodeURIComponent('{{ page.riderpage }}');
+        var yql = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22" + url + "%22%20and%20xpath%3D%22%2F%2Fp%5B%40class%3D'Smaller'%5D%22&format=json&diagnostics=true&callback=?";
+        $.ajax({type:'GET', url: yql, dataType:'jsonp', success: function(data, textStatus) {
+            data = data.query.results.p.content.split('\n');
+            $('#raised').text(data[1].replace(/[A-Za-z:\s\,]/g, ''));
+            $('#goal').text(data[0].replace(/[A-Za-z:\s\,]/g, ''));
+
+            // var amount = $.trim(data.query.results.p.content).substr(27),
+            //     dollarsign = amount.substr(0, 1),
+            //     cents = amount.substr((amount.length)-2),
+            //     dollars = amount.substr(1, amount.indexOf('.')-1),
+            //     html = ['<span class="dollarsign">', dollarsign, '</span>', dollars, '<span class="cents">', cents, '</span>'].join('');
+            //     $('#amount_raised').html(html);
+        }});
+        </script>
     </body>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </html>
