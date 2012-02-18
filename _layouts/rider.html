@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>{{ page.rider }} → Lunchgroup Heavy Industries → 2012 Enbridge Ride to Conquer Cancer</title>
+		<title>{{ page.title }} → Lunchgroup Heavy Industries → 2012 Enbridge Ride to Conquer Cancer</title>
 		<meta name="description" content="">
 		<meta name="author" content="">
 
@@ -42,7 +42,7 @@
 		<header class=" header">
 			<div class="row-fluid">
 				<div class="span3 logo">
-					<a href="/"><img style="margin-top: 10px" src="img/lhi-logo-150x185.png" alt="Lunchgroup Heavy Industries"/></a>
+					<a href="/"><img style="margin-top: 10px" src="/img/lhi-logo-150x185.png" alt="Lunchgroup Heavy Industries"/></a>
 					<h1>Lunchgroup Heavy Industries - Ride to Conquer Cancer</h1>
 				</div>
 				<div class="span9 hero">
@@ -64,13 +64,13 @@
                 <div class="row-fluid">
                     <div class="span8">
                         <h1>{{ page.firstname }} {{ page.lastname }}</h1>
-                        <h4>Raised: $75 &bull; Goal: $2500</h4>
+                        <h4>Raised: <span id="raised">---</span> &bull; Goal: <span id="goal">---</span></h4>
                         {{ content }}
                     </div>  
                     <div class="span4">
                         <img src="{{page.riderimage}}" alt="" class="biopic">
                         <div class="riderbuttons">
-                            <a href="#" class="btn btn-large btn-donate"><i class="ico bills"></i>Donate to {{ page.firstname }}</a>
+                            <a href="{{ page.riderpage }}" class="btn btn-large btn-donate"><i class="ico bills"></i>Donate to {{ page.firstname }}</a>
                             {% if page.twitter %}
                                 <a href="{{ page.twitter }}" target=_blank class="btn btn-large"><i class="ico bird"></i>Follow on Twitter</a>
                             {% endif %}
@@ -81,10 +81,10 @@
             </section>
         </div>
         
-        <!-- <footer>
-            <img style="float:left" src="/img/rcc-logo-185.png" alt="Lunchgroup Heavy Industries Logo"/>
-            <img style="float:right" src="/img/lhi-logo-150x185.png" alt="Lunchgroup Heavy Industries Logo"/>
-        </footer> -->
+        <footer>
+            <img style="display:block;margin:auto" src="/img/rcc-logo-185.png" alt="Lunchgroup Heavy Industries Logo"/>
+        </footer>
+        
         
         
         
