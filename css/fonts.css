@@ -75,6 +75,22 @@ i.ico { font-style: normal }
     content: 'b';
 }
 
+.ico.tumblr:before {
+    content: 'u';
+}
+
+.ico.dollarsign:before {
+    content: 'd';
+}
+
+.ico.flickr:before {
+    content: 'l';
+}
+
+.ico.twiter:before {
+    content: 't';
+}
+
 .btn-large .ico {
     font-size: 36px;
     margin-right: 10px;
