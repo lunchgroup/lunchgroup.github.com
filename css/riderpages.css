@@ -37,6 +37,11 @@ footer {
     height: 100px;
 }
 
+.logo img {
+    height: 185px;
+    width: 150px;
+}
+
 @media (max-width: 768px) {
     .biopic {
         margin: 0 auto;
@@ -47,6 +52,12 @@ footer {
     section h1, section h4 {
         text-align: center;
     }
+    
+    .logo img {
+        height: 370px;
+        width: 300px;
+    }
+    
 }
 
 @media (max-width: 480px) {
@@ -56,4 +67,10 @@ footer {
     section h4 {
         font-size: 14px;
     }
+
+    .logo img {
+        height: 370px;
+        width: 300px;
+    }
+
 }
