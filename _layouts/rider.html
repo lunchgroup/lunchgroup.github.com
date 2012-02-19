@@ -99,13 +99,6 @@
             data = data.query.results.p.content.split('\n');
             $('#raised').text(data[1].replace(/[A-Za-z:\s\,]/g, ''));
             $('#goal').text(data[0].replace(/[A-Za-z:\s\,]/g, ''));
-
-            // var amount = $.trim(data.query.results.p.content).substr(27),
-            //     dollarsign = amount.substr(0, 1),
-            //     cents = amount.substr((amount.length)-2),
-            //     dollars = amount.substr(1, amount.indexOf('.')-1),
-            //     html = ['<span class="dollarsign">', dollarsign, '</span>', dollars, '<span class="cents">', cents, '</span>'].join('');
-            //     $('#amount_raised').html(html);
         }});
         </script>
     </body>
