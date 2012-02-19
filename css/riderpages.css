@@ -36,3 +36,24 @@ h4 {
 footer {
     height: 100px;
 }
+
+@media (max-width: 768px) {
+    .biopic {
+        margin: 0 auto;
+        width: auto;
+        display: block;
+    }
+    
+    section h1, section h4 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    section h1 {
+        font-size: 36px;
+    }
+    section h4 {
+        font-size: 14px;
+    }
+}

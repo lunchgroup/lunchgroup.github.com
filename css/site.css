@@ -33,7 +33,7 @@ h2 {
 
 .logo img {
 	display: block;
-	margin: auto;
+	margin: 10px auto 0 auto;
 }
 
 .logo h1 {
@@ -258,7 +258,7 @@ footer {
 
 	.stats {
 		margin-bottom: 10px;
-		font-size: 1.25em;
+		font-size: 20px;
 
 	}
 
@@ -281,4 +281,26 @@ footer {
 		margin: 0 auto;
 		margin-bottom: 10px;
 	}
+    
+    .sponsorimg {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        margin: 0 auto;
+    }
+    
+    .stats {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .stats span.stat_caption {
+        display: inline;
+    	font: 1em LouisBold, "Helvetica Neue", Helvetica, sans-serif;
+    	text-transform: uppercase;
+    }
+    
 }
