@@ -1,6 +1,12 @@
 (function($) {
 
 	window.scrollTo(0, 1);
+
+    if (Modernizr.touch) {
+        
+        // swap bw images for colour
+        $('.riderimage img, .sponsorimg').css({opacity: 1});
+    }
     
     var ride_date = new Date('June 16, 2012').getTime(),
         days_left = Math.ceil((ride_date - new Date().getTime())/86400000);
