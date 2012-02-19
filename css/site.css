@@ -199,8 +199,8 @@ hr.soften {
 }
 
 #sponsor_stickermule {
-    width: 307px; 
-    background-image: url(../img/stickermule_bw.png);
+    width: 280px; 
+    background: url(../img/stickermule_bw.png) 0 0 no-repeat
 }
 
 #sponsor_tro {
