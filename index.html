@@ -9,6 +9,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <script src="/js/modernizr-custom-min.js"></script>
 		<script src="/js/jquery.js"></script>
+        <script src="/js/bootstrap-transition.js"></script>
+        <script src="/js/bootstrap-modal.js"></script>
         
 		<!-- HTML5 shim, for IE6-8 support of HTML elements -->
 		<!--[if lt IE 9]>
@@ -69,7 +71,30 @@
 					<div class="row-fluid">
 						<div class="span12 navbuttons">
 							<p>
-								<a href="#" class="btn btn-large btn-donate">Donate</a>
+								<a class="btn btn-large btn-donate" data-toggle="modal" href="#donate">Donate</a>
+                                <div id="donate" style="display:none" class="modal hide fade">
+                                    <div class="modal-header">
+                                        <a class="close" data-dismiss="modal">×</a>
+                                        <h3>Donate to a Rider</h3>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Although we ride together as a team, donations are made to individual team members. To make a donation, click on one of the names below.</p>
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Rider</th>
+                                                    <th>Amount Raised</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <h5>Thank you for your support!</h5>
+                                    </div>
+                                </div>
 								<a href="#the-team" class="btn btn-large">Meet the Team</a>
 							</p>
 							<p>
@@ -221,6 +246,8 @@
 			<p>Made by <a href="http://twitter.com/gnb">@gnb</a></p>
 		</footer>
 		</div>
-		<script src="js/app.js"></script>
+
+        <script src="js/app.js"></script>
+        
 	</body>
 </html>
