@@ -8,7 +8,7 @@
         $('.riderimage img, .sponsorimg').css({opacity: 1});
     }
     
-    var ride_date = new Date('June 16, 2012').getTime(),
+    var ride_date = new Date(1339855200).getTime(),
         days_left = Math.ceil((ride_date - new Date().getTime())/86400000);
     $('#days').html(days_left);
 
