@@ -53,11 +53,6 @@ footer {
         text-align: center;
     }
     
-    .logo img {
-        height: 370px;
-        width: 300px;
-    }
-    
 }
 
 @media (max-width: 480px) {

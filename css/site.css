@@ -72,31 +72,6 @@ h2 {
 	text-transform: none;
 }
 
-ul.stats-tabs li {
-	float: left;
-	margin: 0 20px 0 0;
-	padding: 0 20px 0 0;
-	border-right: 1px solid #ccc;
-	}
-ul.stats-tabs li:last-child {
-	margin: 0;
-	padding: 0;
-	border: none;
-	}
-ul.stats-tabs li {
-	display: block;
-	float: left;
-	font: 24px LouisBold, "Helvetica Neue", Helvetica, sans-serif;
-	}
-ul.stats-tabs li span {
-	display: block;
-	margin-top: 2px;
-	font: 13px RockwellRegular, "Helvetica Neue", Helvetica, sans-serif;
-	font-weight: lighter;
-
-	}
-
-
 .navbuttons {
 	margin-top: 20px;
 }
@@ -258,16 +233,16 @@ footer {
 
 	.stats {
 		margin-bottom: 10px;
-		font-size: 20px;
-
+        font: 24px LouisBold, "Helvetica Neue", Helvetica, sans-serif;
 	}
 
-	.stats span {
+	.stats span.stat_caption {
 		display: inline;
 		font: 1em LouisBold, "Helvetica Neue", Helvetica, sans-serif;
 		text-transform: uppercase;
 
 	}
+    
 
 	.navbuttons p {
 		margin: 0;
@@ -287,20 +262,28 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 950px) {
+    .hero h1 {
+        font: 42px LouisBold, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    
     .logo img {
         margin: 0 auto;
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    
+    
+    .hero h1 {
+        font: 42px LouisBold, "Helvetica Neue", Helvetica, sans-serif;
     }
     
     .stats {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    
-    .stats span.stat_caption {
-        display: inline;
-    	font: 1em LouisBold, "Helvetica Neue", Helvetica, sans-serif;
-    	text-transform: uppercase;
+/*        font: 36px LouisBold, "Helvetica Neue", Helvetica, sans-serif;    
+*/        margin-bottom: 20px;
     }
     
 }
