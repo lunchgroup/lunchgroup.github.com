@@ -174,14 +174,25 @@ hr.soften {
 }
 
 #sponsor_stickermule {
-    width: 280px; 
+    width: 200px; 
     background: url(../img/stickermule_bw.png) 0 0 no-repeat
 }
 
 #sponsor_tro {
-    width: 172px; 
+    width: 200px; 
     background-image: url(../img/theroveroutpost_bw.png)
 }
+
+#sponsor_creakingplanks {
+    width: 200px; 
+    background: url(../img/creakingplanks_bw.png) 0 0 no-repeat
+}
+
+#sponsor_amberjacks {
+    width: 200px; 
+    background-image: url(../img/days-inn-amberjacks-logo_bw.png)
+}
+
 
 .sponsorimg {
     opacity: 0;
