@@ -1,60 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>{{ page.title }} → Lunchgroup Heavy Industries → 2012 BC Ride to Conquer Cancer</title>
-		<meta name="description" content="">
-		<meta name="author" content="">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-		<script src="/js/jquery.js"></script>
-
-		<!-- HTML5 shim, for IE6-8 support of HTML elements -->
-		<!--[if lt IE 9]>
-		  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-
-		<link rel="stylesheet" type="text/css" href="/css/fonts.css" media="all">
-        <link href="http://get.pictos.cc/fonts/835/1" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" type="text/css" href="/css/bootstrap.css" media="all">
-		<link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css" media="all">
-        <link rel="stylesheet" type="text/css" href="/css/site.css" media="all">
-        <link rel="stylesheet" type="text/css" href="/css/riderpages.css" media="all">
+	
+    <head>
+        {% include head.html %}
         
-        <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-29289926-1']);
-          _gaq.push(['_trackPageview']);
-
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-
-        </script>
-	</head>
+        <link rel="stylesheet" type="text/css" href="/css/riderpages.css" media="all">
+    </head>
+        
 
     <body>
         <a id="top"></a>
 		<header class=" header">
 			<div class="row-fluid">
-				<div class="span3 logo">
-					<a href="/"><img src="/img/lhi-logo-300x370.png" alt="Lunchgroup Heavy Industries"/></a>
-					<h1>Lunchgroup Heavy Industries - Ride to Conquer Cancer</h1>
-				</div>
-				<div class="span9 hero">
-					<h1 class="centered">Conquering Cancer</h1>
-					<h2 class="centered">One Kilometre at a Time</h2>
-
-					<div class="row-fluid">
-						<div class="span12">
-							<hr class="soften" />
-
-						</div>
-					</div>
-				</div>
+				{% include logoblock_3_9.html %}
 			</div> <!-- /row -->
 		</header>  <!-- /header -->
         
