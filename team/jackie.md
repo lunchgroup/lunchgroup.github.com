@@ -1,7 +1,7 @@
 ---
 title: Jackie Neufeld
 layout: rider
-riderimage: /img/generic-female-large.png
+riderimage: /img/jackie-riderpage.jpg
 firstname: Jackie
 lastname: Neufeld
 riderpage: http://www.conquercancer.ca/site/TR/Events/Vancouver2012?px=2881331&pg=personal&fr_id=1413

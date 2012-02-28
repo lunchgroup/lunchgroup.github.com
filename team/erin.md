@@ -1,7 +1,7 @@
 ---
 title: Erin Westwood
 layout: rider
-riderimage: /img/generic-female-large.png
+riderimage: /img/erin-riderpage.jpg
 firstname: Erin
 lastname: Westwood
 riderpage: http://www.conquercancer.ca/site/TR/Events/Vancouver2012?px=2879952&pg=personal&fr_id=1413

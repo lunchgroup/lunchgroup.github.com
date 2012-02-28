@@ -1,7 +1,7 @@
 ---
 title: Patrick Phang
 layout: rider
-riderimage: /img/generic-male-large.png
+riderimage: /img/patrick-riderpage.jpg
 firstname: Patrick
 lastname: Phang
 riderpage: http://www.conquercancer.ca/site/TR/Events/Vancouver2012?px=2879886&pg=personal&fr_id=1413
