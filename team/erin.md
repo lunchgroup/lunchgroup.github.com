@@ -6,8 +6,22 @@ firstname: Erin
 lastname: Westwood
 riderpage: http://www.conquercancer.ca/site/TR/Events/Vancouver2012?px=2879952&pg=personal&fr_id=1413
 ---
-Welcome to my Personal Page! The [Enbridge Ride to Conquer Cancer](http://va12.conquercancer.ca/site/PageServer?pagename=va12_homepage) benefiting the [BC Cancer Foundation](http://bccancerfoundation.com), is a two-day cycling journey, through Canada's Pacific region taking place in the summer. It will be a challenge in a number of ways, but with my bike, my helmet, and your generosity, a real impact will be made! 
+Why am I riding?  The reasons are countless, and some very personal.
 
-Contribute to this history-making event with a [donation](http://www.conquercancer.ca/site/TR/Events/Vancouver2012?px=2879952&pg=personal&fr_id=1413). Funds raised in [The Ride to Conquer Cancer](http://va12.conquercancer.ca/site/PageServer?pagename=va12_homepage) will support breakthrough research, exemplary teaching, and compassionate care made possible through [BC Cancer Foundation](http://bccancerfoundation.com), a leader in cancer research and care.
+I'm riding in memory of two great men:  my grandfather, Clifford English, and my uncle, Richard English.  After fighting hard they both lost their battle with this disease.
 
-Thank you in advance for your help.
+They are dearly missed, and forever in our hearts.
+
+After going through some pretty significant life changes in the past few years, with the greatest being the birth of my dear boy, as well as a considerable weight loss... to the breakdown of a major relationship in my life, with that I lost perspective, control and felt helpless at my inability to 'fix things.'
+
+I chose to focus on the countless reasons my life is so incredibly blessed, and quite simply awesome.  I am choosing to become healthy in mind, body and soul.  I am choosing to savor every wicket morsel of this fantastic life.  And my number one reason... my Jack, the center of my world.  He's healthy, full of life, energy, curiosity, hilarity and much, much love.
+
+For him and his health I am forever grateful.
+
+I'm riding simply because I can:  an epic bike ride, a challenge beyond anything I've accomplished before.  With my helmet, bike, lots of determination, and your support we can all make a difference.
+
+I thank you for helping me reach this financial goal, but more important, this personal challenge.
+
+
+"Once you choose hope, anything's possible."
+~ Christopher Reeve
