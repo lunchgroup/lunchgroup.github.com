@@ -65,6 +65,7 @@ h2 {
 .stats {
 	font: 3em LouisBold, "Helvetica Neue", Helvetica, sans-serif;
 	text-transform: uppercase;
+    cursor: pointer;
 }
 .stats span.stat_caption {
 	display:block;
@@ -185,22 +186,22 @@ hr.soften {
 }
 
 #sponsor_stickermule {
-    width: 200px; 
+    width: 200px;
     background: url(../img/stickermule_bw.png) 0 0 no-repeat
 }
 
 #sponsor_tro {
-    width: 200px; 
+    width: 200px;
     background-image: url(../img/theroveroutpost_bw.png)
 }
 
 #sponsor_creakingplanks {
-    width: 200px; 
+    width: 200px;
     background: url(../img/creakingplanks_bw.png) 0 0 no-repeat
 }
 
 #sponsor_amberjacks {
-    width: 200px; 
+    width: 200px;
     background-image: url(../img/days-inn-amberjacks-logo_bw.png)
 }
 
@@ -264,7 +265,7 @@ footer {
 		text-transform: uppercase;
 
 	}
-    
+
 
 	.navbuttons p {
 		margin: 0;
@@ -278,7 +279,7 @@ footer {
 		margin: 0 auto;
 		margin-bottom: 10px;
 	}
-    
+
     .sponsorimg {
         width: 100%;
     }
@@ -288,7 +289,7 @@ footer {
     .hero h1 {
         font: 42px LouisBold, "Helvetica Neue", Helvetica, sans-serif;
     }
-    
+
     .logo img {
         margin: 0 auto;
         width: 80%;
@@ -297,15 +298,15 @@ footer {
 }
 
 @media (max-width: 768px) {
-    
-    
+
+
     .hero h1 {
         font: 42px LouisBold, "Helvetica Neue", Helvetica, sans-serif;
     }
-    
+
     .stats {
-/*        font: 36px LouisBold, "Helvetica Neue", Helvetica, sans-serif;    
+/*        font: 36px LouisBold, "Helvetica Neue", Helvetica, sans-serif;
 */        margin-bottom: 20px;
     }
-    
+
 }

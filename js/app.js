@@ -1,13 +1,13 @@
 (function($) {
 
 	window.scrollTo(0, 1);
-    
+
     if (Modernizr.touch) {
-        
+
         // swap bw images for colour
         $('.riderimage img, .sponsorimg').css({opacity: 1});
     }
-    
+
     var ride_date = new Date(1339858800*1000).getTime(),
         days_left = Math.ceil((ride_date - new Date().getTime())/86400000);
     $('#days').html(days_left);
@@ -15,17 +15,17 @@
     var yql = function(url, cb) {
         $.ajax({
             type:'GET',
-            url: url, 
-            dataType:'jsonp', 
+            url: url,
+            dataType:'jsonp',
             success: cb
         });
     };
 
     // stats
-    (function() {
+    var updatestats = function() {
         var url = 'http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fwww.conquercancer.ca%2Fsite%2FTR%3Fpg%3Dteam%26fr_id%3D1413%26team_id%3D47401%22%20and%20xpath%3D%22%2F%2Fdd%22&format=json&diagnostics=true';
         yql(url, function(data, textStatus) {
-            data = data.query.results.dd;            
+            data = data.query.results.dd;
             var formatstring = function(str) {
                 str = str.replace(/,/, '', 'g');
                 str = str.substr(0, str.indexOf('.'));
@@ -34,13 +34,16 @@
             $('#goal').text(formatstring(data[0].span.content));
             $('#raised').text(formatstring(data[1].span.span.content));
         });
-    })();
-    
+    };
+
+    updatestats();
+    $('.stats').click(updatestats);
+
     // donate table
     (function() {
-        
+
         var riderurls = {};
-        
+
         var url = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fwww.conquercancer.ca%2Fsite%2FTR%3Fpg%3Dteam%26fr_id%3D1413%26team_id%3D47401%22%20and%20xpath%3D'%2F%2Ftable%5B%40class%3D%22tr_roster%22%5D%2Ftr'&format=json&diagnostics=true";
         yql(url, function(data, textStatus) {
             var out = [];
