@@ -37,7 +37,10 @@
     };
 
     updatestats();
-    $('.stats').click(updatestats);
+    $('.stats').click(function() {
+        $('#goal, #raised').text('---');
+        updatestats();
+    });
 
     // donate table
     (function() {
