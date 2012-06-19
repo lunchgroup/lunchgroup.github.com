@@ -8,9 +8,10 @@
         $('.riderimage img, .sponsorimg').css({opacity: 1});
     }
 
-    var ride_date = new Date(1339830000*1000).getTime(),
-        days_left = Math.ceil((ride_date - new Date().getTime())/86400000);
-    $('#days').html(days_left);
+    // var ride_date = new Date(1339830000*1000).getTime(),
+    //     days_left = Math.ceil((ride_date - new Date().getTime())/86400000);
+    // $('#days').html('days_left');
+    $('#days').html('0');
 
     var yql = function(url, cb) {
         $.ajax({
