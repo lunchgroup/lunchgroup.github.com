@@ -8,10 +8,9 @@
         $('.riderimage img, .sponsorimg').css({opacity: 1});
     }
 
-    // var ride_date = new Date(1339830000*1000).getTime(),
-    //     days_left = Math.ceil((ride_date - new Date().getTime())/86400000);
-    // $('#days').html('days_left');
-    $('#days').html('0');
+    var ride_date = new Date(1371279600000).getTime(),
+        days_left = Math.ceil((ride_date - new Date().getTime())/86400000);
+    $('#days').html(days_left);
 
     var yql = function(url, cb) {
         $.ajax({
@@ -24,7 +23,7 @@
 
     // stats
     var updatestats = function() {
-        var url = 'http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fwww.conquercancer.ca%2Fsite%2FTR%3Fpg%3Dteam%26fr_id%3D1413%26team_id%3D47401%22%20and%20xpath%3D%22%2F%2Fdd%22&format=json&diagnostics=true';
+        var url = 'http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fwww.conquercancer.ca%2Fsite%2FTR%3Fpg%3Dteam%26fr_id%3D1441%26team_id%3D53656%22%20and%20xpath%3D%22%2F%2Fdd%22&format=json';
         yql(url, function(data, textStatus) {
             data = data.query.results.dd;
             var formatstring = function(str) {
@@ -48,7 +47,7 @@
 
         var riderurls = {};
 
-        var url = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fwww.conquercancer.ca%2Fsite%2FTR%3Fpg%3Dteam%26fr_id%3D1413%26team_id%3D47401%22%20and%20xpath%3D'%2F%2Ftable%5B%40class%3D%22tr_roster%22%5D%2Ftr'&format=json&diagnostics=true";
+        var url = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fwww.conquercancer.ca%2Fsite%2FTR%3Fpg%3Dteam%26fr_id%3D1441%26team_id%3D53656%22%20and%20xpath%3D'%2F%2Ftable%5B%40class%3D%22tr_roster%22%5D%2Ftr'&format=json";
         yql(url, function(data, textStatus) {
             var out = [];
             var html = [];
@@ -69,7 +68,7 @@
                 var rider = out[i];
                 var firstname = rider.name.split(' ')[0].toLowerCase();
                 html.push('<tr><td><a href="/team/'+firstname+'.html">' + rider.name + '</a></td><td>' + rider.amountStr + '</td><td><a href="' + riderurls[rider.name] + '" class="btn btn-small btn-donate">Donate</a></td></tr>');
-            };
+            }
             $('#donate table tbody').append(html.join(''));
 
         });
