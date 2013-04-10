@@ -12,16 +12,12 @@ blogs:
     url: http://ride2conquer.tumblr.com/
 ---
 
-Hi there. Thanks for stopping by.
+In June of 2012, I embarked on an epic journey from Vancouver to Seattle with one goal: to put an end to cancer. It was one of the most challenging experiences I've ever taken on, and I'm excited to push my personal limits again in 2013. With the support of my 11-person team, Lunchgroup Heavy Industries, and thousands of others, I'm looking forward to giving it my all. This year, I'm dedicated to training hard and riding harder.
 
-My name is Eryn Holbrook. This is my inaugural Ride to Conquer Cancer and I couldn't be more excited (or scared). Did I really sign up for a 320km bike ride from Vancouver to Seattle? Looks like I've got a lot of training ahead of me but, with your support, I'll be well on my way to reaching my goals.
+But I can't do it without you.
 
-By the way, as you may have heard, I'm riding with a team of friends and colleagues, many of whom work with me at [SFU](http://www.sfu.ca). Although we'll be riding together, we have to raise funds individually, so when you make a donation here you'll be supporting me directly.
+A donation of any amount will help the BC Cancer Foundation to find a cure for cancer through research and help those struggling with cancer with the latest therapy and treatment. Donations can be made via this webpage or by printing out the donation page and mailing it in.
 
-Here's how you can help:
+All donations are 100% tax deductible and any donations of $10 or more will receive a tax receipt. If you can't make a donation, please consider donating your time and energy to this important cause. On-site volunteers are always welcome!
 
-* [Donation](http://www.conquercancer.ca/site/TR/Events/Vancouver2012?px=2883391&pg=personal&fr_id=1413) of any amount will help the BC Cancer Foundation to find a cure for Cancer.  Donation can be made via this webpage or by printing out the donation page and mailing it in (All donations are 100% tax deductible, and are non-refundable and non-transferable. Any donations of $10 or more will receive a tax receipt via an email or regular snail mail).
-* Spread the words about this cause of finding a cure for Cancer and/or help us fundraise.
-* [Volunteer](http://va12.conquercancer.ca/site/PageServer?pagename=12_crew) your time to help out with the event
- 
-So, before you leave this page, please consider showing your support by making a [donation](http://www.conquercancer.ca/site/TR/Events/Vancouver2012?px=2883391&pg=personal&fr_id=1413) or [volunteering](http://va12.conquercancer.ca/site/PageServer?pagename=12_crew). I truly believe that, with your generosity, we will conquer this devastating disease.
+I truly believe that, with your generosity, we will conquer this devastating disease. Thank you for your support!
