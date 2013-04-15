@@ -5,7 +5,7 @@ riderimage: /img/eryn-riderpage.jpg
 firstname: Eryn
 lastname: Holbrook
 twitter: https://twitter.com/hexalyn
-riderpage: http://www.conquercancer.ca/site/TR/Events/Vancouver2012?px=2883391&pg=personal&fr_id=1413
+riderpage: http://www.conquercancer.ca/site/TR/Events/Vancouver2013?px=2883391&pg=personal&fr_id=1441
 blogs:
   - type: tumblr
     title: Eryn's Training Journal
