@@ -7,7 +7,7 @@ lastname: Foster
 riderpage: http://www.conquercancer.ca/site/TR/Events/Vancouver2013?px=3118498&pg=personal&fr_id=1441
 ---
 
-The Enbridge Ride to Conquer Cancer benefiting BC Cancer Foundation, is a two-day cycling journey, from Vancouver to Seattle. As a rider I am required to raise $2500 to participate....Funds raised in The Ride to Conquer Cancer will support breakthrough research, exemplary teaching, and compassionate care made possible through BC Cancer Foundation, a leader in cancer research and care.
+The Ride to Conquer Cancer benefiting BC Cancer Foundation, is a two-day cycling journey, from Vancouver to Seattle. As a rider I am required to raise $2500 to participate....Funds raised in The Ride to Conquer Cancer will support breakthrough research, exemplary teaching, and compassionate care made possible through BC Cancer Foundation, a leader in cancer research and care.
 
 As most of you that know I am active in softball and a bit of golf, but most of you wouldn't even know I even owned a bike.....so me doing this ride might be a bit of a shock. I have lost too many loved ones over the years to this disease; my grandmother Hazel Lillian Reid, grandfather Clifford Marcus English, my dad Richard James English and just recently my father in-law Clifford Voeltz.
 
