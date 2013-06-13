@@ -1,7 +1,7 @@
 ---
 title: Adrian Bisek
 layout: rider
-riderimage: /img/generic-male-large.png
+riderimage: /img/adrian-riderpage.jpg
 firstname: Adrian
 lastname: Bisek
 riderpage: http://www.conquercancer.ca/site/TR/Events/Vancouver2013?px=3108062&pg=personal&fr_id=1441

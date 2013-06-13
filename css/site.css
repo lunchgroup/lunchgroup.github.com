@@ -215,14 +215,9 @@ hr.soften {
     background-image: url(../img/theroveroutpost_bw.png)
 }
 
-#sponsor_creakingplanks {
-    width: 200px;
-    background: url(../img/creakingplanks_bw.png) 0 0 no-repeat
-}
-
-#sponsor_amberjacks {
-    width: 200px;
-    background-image: url(../img/days-inn-amberjacks-logo_bw.png)
+#sponsor_arbonne {
+    width: 175px;
+    background: url(../img/arbonne_logo_bw.jpg) 0 0 no-repeat
 }
 
 
